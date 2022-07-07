@@ -122,6 +122,12 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
+-r:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll"
+-r:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
+-r:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
+-r:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -338,6 +344,12 @@
 -r:"C:/Users/WarmHeartedSnowman/Documents/PR_GAME/Pr num_3/Day 3/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/WarmHeartedSnowman/Documents/PR_GAME/Pr num_3/Day 3/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/WarmHeartedSnowman/Documents/PR_GAME/Pr num_3/Day 3/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-analyzer:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
+-analyzer:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll"
+-analyzer:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTween/DOTween.dll"
+-analyzer:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
+-analyzer:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
+-analyzer:"Assets/Sample_Assets_PCKGs/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs"
