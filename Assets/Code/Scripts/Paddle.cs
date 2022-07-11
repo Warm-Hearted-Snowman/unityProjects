@@ -4,7 +4,7 @@ using UnityEngine;
 public class Paddle : MonoBehaviour
 {
     public Rigidbody rigidBody{ get; private set; }
-    public Vector2 direction { get; private set; }
+    public Vector3 direction { get; private set; }
     public float speed = 30f;
     
     private void Awake()
@@ -16,11 +16,11 @@ public class Paddle : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            this.direction = new Vector2(-1, 0);
+            this.direction = new Vector3(0,0,-1);
         }
         else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            this.direction = new Vector2(1, 0);
+            this.direction = new Vector3(0,0,1);
         }
         else
         {
@@ -31,10 +31,5 @@ public class Paddle : MonoBehaviour
     private void FixedUpdate()
     {
         this.rigidBody.AddForce(this.direction * this.speed);
-    }
-
-    private void Start()
-    {
-        this.rigidBody.velocity = new Vector3(-3,-2,-25);
     }
 }
