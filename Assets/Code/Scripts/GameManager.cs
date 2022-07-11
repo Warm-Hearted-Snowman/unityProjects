@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class GameManager: MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public int level = 1;
     public int score = 0;
     public int lives = 3;
+    public int free=0;
 
     private void Awake()
     {
@@ -30,6 +30,11 @@ public class GameManager: MonoBehaviour
     {
         this.level = level;
 
-        SceneManager.LoadScene("Level"+level);
+        SceneManager.LoadScene("Level" + level);
+    }
+
+    public void Hit(Brick brick)
+    {
+        free +=1;
     }
 }
